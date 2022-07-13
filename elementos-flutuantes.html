@@ -6,6 +6,11 @@
 		<title>Elementos flutuantes</title>
 
 		<style type="text/css">
+
+			#principal{
+				border: 3px solid palevioletred ;
+				background: seagreen;
+			}
 			
 			.conteudo{
 				background: mediumpurple;
@@ -13,7 +18,6 @@
 				width: 150px;
 				height: 150px;
 				margin: 10px;
-				float: left;
 			}
 
 			/*.conteudo1{
@@ -23,22 +27,45 @@
 				height: 150px;
 				float: right;
 			}	*/
+			.conteudo-zero{
+				background: red;
+				border: 1px solid black;
+				width: 150px;
+				height: 150px;
+				margin: 10px;
+			}
+
+			.clear{
+				clear: left;
+			}
 
 		</style>
 	</head>
 	<body>
 
-		<div class="conteudo">
-			Conteúdo 1
+		<div id="principal">
+
+			<div class="conteudo">
+				Conteúdo 1
+			</div>
+
+			<div class="conteudo">
+				Conteúdo 2
+			</div>
+
+			<div class="conteudo">
+				Conteúdo 3
+			</div>
+
+			<div class="clear">:p</div>
+
+			<p id="clear">
+			Aut enim fugit et molestiae voluptates hic expedita error. Qui deserunt voluptatem eum sequi incidunt non inventore perferendis eos tempora quia. Ea consectetur sequi qui quasi explicabo sed maxime accusamus est aliquid debitis a magni nesciunt et ratione quia vel illo ipsa. At illum vitae et quia asperiores ex quidem quidem. Aut rerum dignissimos qui enim modi ex tempore molestias. Sed accusamus sint eos culpa quod sit quas rerum vel fugit corrupti et corporis eius rem odio temporibus et nostrum enim?
+		</p>
+
 		</div>
 
-		<div class="conteudo">
-			Conteúdo 2
-		</div>
-
-		<div class="conteudo">
-			Conteúdo 3
-		</div>
+		
 
 	</body>
 </html>
